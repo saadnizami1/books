@@ -9,6 +9,8 @@ export interface Book {
   coverColor: string;
   accentColor: string;
   tags: string[];
+  coverImage?: string;
+  amazonLink?: string;
 }
 
 export interface Author {
